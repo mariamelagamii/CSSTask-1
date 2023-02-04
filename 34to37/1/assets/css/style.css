@@ -1,0 +1,14 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    background-color: #eee;
+    margin: 20px auto;
+    line-height: 60px;
+}
+div:empty {
+    background-color: red;
+}

@@ -1,0 +1,12 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+a {
+    color: white;
+    background-color: rgba(19, 155, 137, 0.986);
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-bottom: 8px solid rgba(0, 100, 87, 0.548);
+    text-decoration: none;
+}

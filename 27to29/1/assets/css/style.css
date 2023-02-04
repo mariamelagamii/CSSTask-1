@@ -1,0 +1,33 @@
+.parent {
+    background-color: #eee;
+    width: 1000px;
+    text-align: center;
+    overflow: hidden;
+
+}
+.clear {
+    clear: both;
+}
+.full div, .one div, .two div, .three div {
+    background-color: #c5c5c5;
+    padding: 15px 0px ;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+.parent .full div {
+    width: calc((100% - 30px));
+   
+}
+.parent .one div {
+    width: calc((100% - 60px)/3);
+}
+.parent .two div {
+    width: calc((100% - 45px)/2);
+}
+.parent .three div {
+    width: calc((100% - 75px)/4);
+    margin-bottom: 15px;
+}
+

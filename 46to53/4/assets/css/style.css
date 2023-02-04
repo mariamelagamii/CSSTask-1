@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, Helvetica, sans-serif6;
+}
+.parent {
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+.parent div {
+    background-color: #009688;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent .one, .parent .three {
+    align-self: flex-end;
+}
+.parent .two {
+    width: 300px;
+}

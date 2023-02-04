@@ -1,0 +1,45 @@
+*{
+  text-align: center;
+  
+}
+table {
+  width: 700px;
+  margin: auto;
+  border-spacing: 0px;
+  border-bottom: 3px solid green;
+}
+table caption {
+  font-weight: bold;
+  margin: 20px;
+}
+table thead td {
+  background-color: rgb(64 , 64, 64);
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+}
+table td {
+  background-color: #eee;
+  
+  border: 1px solid #fdf2f2;
+  padding: 15px;
+}
+button {
+  color: white;
+  border: 0px;
+  padding: 2px 8px;
+  
+  cursor: pointer;
+}
+.two {
+  background-color: #e91e63e3;
+}
+.one {
+  background-color: #03a9f4;
+
+}
+td img {
+  width: fit-content;
+  height: 80px;
+  border: 2px solid white;
+}

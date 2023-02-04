@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.parent {
+    width: 400px;
+    height: 150px;
+    background-color: #eee;
+    padding: 20px;
+    margin: 30px auto;
+    transition: all .5s linear;
+}
+.son {
+    background-color: #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    transition: all .5s linear .5s ;
+}
+.parent:hover {
+    margin-top: 10px;
+}
+
+.parent:hover .son {
+    margin-top: 40px;
+}
